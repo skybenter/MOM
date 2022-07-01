@@ -1,0 +1,182 @@
+/* line 1, ../../../../Documents/mom/#souce/scss/style.scss */
+* {
+  padding: 0;
+  margin: 0;
+  border: 0; }
+
+/* line 2, ../../../../Documents/mom/#souce/scss/style.scss */
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 4, ../../../../Documents/mom/#souce/scss/style.scss */
+:focus, :active {
+  outline: none; }
+
+/* line 5, ../../../../Documents/mom/#souce/scss/style.scss */
+a:focus, a:active {
+  outline: none; }
+
+/* line 6, ../../../../Documents/mom/#souce/scss/style.scss */
+nav, footer, header, aside {
+  display: block; }
+
+/* line 7, ../../../../Documents/mom/#souce/scss/style.scss */
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  background-color: #e9e9e9; }
+
+/* line 11, ../../../../Documents/mom/#souce/scss/style.scss */
+input, button, textarea {
+  font-family: inherit; }
+
+/* line 12, ../../../../Documents/mom/#souce/scss/style.scss */
+input::-ms-clear {
+  display: none; }
+
+/* line 13, ../../../../Documents/mom/#souce/scss/style.scss */
+button {
+  cursor: pointer; }
+
+/* line 14, ../../../../Documents/mom/#souce/scss/style.scss */
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0; }
+
+/* line 15, ../../../../Documents/mom/#souce/scss/style.scss */
+a, a:visited {
+  text-decoration: none; }
+
+/* line 16, ../../../../Documents/mom/#souce/scss/style.scss */
+a:hover {
+  text-decoration: none; }
+
+/* line 17, ../../../../Documents/mom/#souce/scss/style.scss */
+ul li {
+  list-style: none; }
+
+/* line 18, ../../../../Documents/mom/#souce/scss/style.scss */
+img {
+  vertical-align: top; }
+
+/* line 19, ../../../../Documents/mom/#souce/scss/style.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: inherit; }
+
+/* line 21, ../../../../Documents/mom/#souce/scss/style.scss */
+body {
+  font-family: 'Gabriela', serif; }
+
+/* line 26, ../../../../Documents/mom/#souce/scss/style.scss */
+.mood__title, .mood__signature, .family__title {
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: azure; }
+
+/* line 32, ../../../../Documents/mom/#souce/scss/style.scss */
+.header__title, .header__text, .header__sub-title {
+  font-size: 20px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #880404;
+  text-shadow: 0px 2px 1px #e9e9e9; }
+
+/* line 39, ../../../../Documents/mom/#souce/scss/style.scss */
+.header__title {
+  margin: 10px 0px 10px 0px; }
+
+/* line 43, ../../../../Documents/mom/#souce/scss/style.scss */
+.header__text {
+  margin: 0px 0px 20px 0px; }
+
+/* line 51, ../../../../Documents/mom/#souce/scss/style.scss */
+.header__container {
+  text-align: center; }
+
+/* line 59, ../../../../Documents/mom/#souce/scss/style.scss */
+.header__logo:not(:last-child) {
+  margin: 0px 0px 20px 0px; }
+
+/* line 64, ../../../../Documents/mom/#souce/scss/style.scss */
+img {
+  width: 200px; }
+
+/* line 71, ../../../../Documents/mom/#souce/scss/style.scss */
+.header__sub-title {
+  margin: 10px 0px 0px 0px; }
+
+/* line 76, ../../../../Documents/mom/#souce/scss/style.scss */
+.rose {
+  height: 240px; }
+
+/* line 80, ../../../../Documents/mom/#souce/scss/style.scss */
+.main {
+  background: -webkit-gradient(linear, left top, left bottom, from(blue), color-stop(#e4e1e1), to(black));
+  background: linear-gradient(blue, #e4e1e1, black); }
+
+/* line 88, ../../../../Documents/mom/#souce/scss/style.scss */
+.mood__title {
+  padding: 20px 0px 20px 0px;
+  line-height: 25px; }
+
+/* line 93, ../../../../Documents/mom/#souce/scss/style.scss */
+.mood__gallery {
+  text-align: center; }
+
+/* line 96, ../../../../Documents/mom/#souce/scss/style.scss */
+.mood__signature {
+  margin: 80px 0px 15px 0px; }
+
+/* line 100, ../../../../Documents/mom/#souce/scss/style.scss */
+.mood__photo {
+  padding: 10px 0px 20px 0px;
+  -webkit-transform: translate(0px, 120%);
+          transform: translate(0px, 120%);
+  opacity: 0;
+  -webkit-transition: all 0.5s ease 0.5s;
+  transition: all 0.5s ease 0.5s; }
+
+/* line 107, ../../../../Documents/mom/#souce/scss/style.scss */
+.mood__photo._active {
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  opacity: 1; }
+
+/* line 112, ../../../../Documents/mom/#souce/scss/style.scss */
+.mood__image:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1); }
+
+/* line 119, ../../../../Documents/mom/#souce/scss/style.scss */
+.family__title {
+  padding: 50px 0px 20px 0px; }
+
+/* line 125, ../../../../Documents/mom/#souce/scss/style.scss */
+body,
+html {
+  margin: 0px;
+  padding: 0px;
+  background-image: url("https://external-preview.redd.it/Tf2MC-orVRAI8OL5tjyF4k4H2Q6QLHTWllekGfqdt3c.png?width=960&crop=smart&auto=webp&s=be4ab9a2fa3ca2f7011799377f118a8dbc64aacb");
+  background-size: cover; }
+
+/* line 132, ../../../../Documents/mom/#souce/scss/style.scss */
+canvas {
+  -webkit-filter: blur(1px);
+          filter: blur(1px); }
+
+/* line 142, ../../../../Documents/mom/#souce/scss/style.scss */
+.gif {
+  text-align: center;
+  background-color: #c9204b;
+  margin: 10px 0px 0px 0px; }
+
+  
